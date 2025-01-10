@@ -49,11 +49,9 @@
   const login = async () => {
     try {
       const response = await axios.post('http://localhost:3333/api/login', credentials.value)
-      console.log(response.data.token.token)
       localStorage.setItem('token', response.data.token.token) 
       showSuccessModal.value = true
     } catch (error) {
-        console.log(error.error)
       showErrorModal.value = true
     }
   }
