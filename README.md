@@ -1,75 +1,57 @@
-# Nuxt Minimal Starter
+# Finance Frontend
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é o frontend do projeto de gerenciamento de receitas e despesas, desenvolvido com Nuxt 3.
 
-## Setup
+## Pré-requisitos
 
-Make sure to install dependencies:
+Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
-```bash
-# npm
-npm install
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
+- [Vue CLI](https://cli.vuejs.org/) (opcional, mas recomendado)
 
-# pnpm
-pnpm install
+## Instalação
 
-# yarn
-yarn install
+1. Clone o repositório para sua máquina local:
 
-# bun
-bun install
-```
+    ```sh
+    git clone https://github.com/HenriqueMVSS/financeManager-Front-Nuxt.git
+    ```
 
-## Development Server
+2. Navegue até o diretório do projeto:
 
-Start the development server on `http://localhost:3000`:
+    ```sh
+    cd financeManager-Front-Nuxt
+    ```
 
-```bash
-# npm
-npm run dev
+3. Instale as dependências do projeto:
 
-# pnpm
-pnpm dev
+    ```sh
+    npm install
+    ```
 
-# yarn
-yarn dev
+## Execução
 
-# bun
-bun run dev
-```
+1. Inicie o servidor de desenvolvimento:
 
-## Production
+    ```sh
+    npm run serve
+    ```
 
-Build the application for production:
+2. Abra seu navegador e acesse `http://localhost:3000` para ver a aplicação em execução.
 
-```bash
-# npm
-npm run build
+## Estrutura do Projeto
 
-# pnpm
-pnpm build
+  - [pages](http://_vscodecontentref_/1): Páginas da aplicação.
+- [public](http://_vscodecontentref_/2): Arquivos públicos.
 
-# yarn
-yarn build
+## Comandos Úteis
 
-# bun
-bun run build
-```
+- `npm run serve`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Compila o projeto para produção.
+- `npm run lint`: Executa o linter para verificar problemas de estilo e sintaxe.
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
+## Licença
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Este projeto está licenciado sob a MIT License.
