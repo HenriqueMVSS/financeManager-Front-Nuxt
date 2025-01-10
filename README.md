@@ -44,6 +44,20 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
   - [pages](http://_vscodecontentref_/1): Páginas da aplicação.
 - [public](http://_vscodecontentref_/2): Arquivos públicos.
+  
+## Utilização
+
+### Login de Usuário
+     
+    Acesse http://localhost:3000/login.
+    Preencha o formulário de login e envie.
+   
+### Dashboard
+```
+Após o login, você será redirecionado para o dashboard.
+No dashboard, você pode visualizar todas as receitas (Incomes) e despesas (Expenses).
+Registrar Receita ,Editar Receita, Registrar Despesa, Editar Despesa
+```
 
 ## Comandos Úteis
 
